@@ -1,0 +1,48 @@
+24-04-16 19:45:03.807 [background-preinit] INFO  o.h.validator.internal.util.Version -
+				HV000001: Hibernate Validator 8.0.1.Final
+24-04-16 19:45:03.914 [main] INFO  com.event.EventProjectApplication -
+				Starting EventProjectApplication using Java 17.0.9 with PID 144064 (D:\RestProject\Event_Project\target\classes started by baps in D:\RestProject\Event_Project)
+24-04-16 19:45:03.916 [main] INFO  com.event.EventProjectApplication -
+				No active profile set, falling back to 1 default profile: "default"
+24-04-16 19:45:05.169 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+24-04-16 19:45:05.282 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 99 ms. Found 4 JPA repository interfaces.
+24-04-16 19:45:06.074 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8080 (http)
+24-04-16 19:45:06.089 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8080"]
+24-04-16 19:45:06.092 [main] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+24-04-16 19:45:06.093 [main] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.19]
+24-04-16 19:45:06.185 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+24-04-16 19:45:06.185 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 2152 ms
+24-04-16 19:45:06.412 [main] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+24-04-16 19:45:06.492 [main] INFO  org.hibernate.Version -
+				HHH000412: Hibernate ORM core version 6.4.4.Final
+24-04-16 19:45:06.547 [main] INFO  o.h.c.i.RegionFactoryInitiator -
+				HHH000026: Second-level cache disabled
+24-04-16 19:45:06.882 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -
+				No LoadTimeWeaver setup: ignoring JPA class transformer
+24-04-16 19:45:06.920 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+24-04-16 19:45:07.416 [main] INFO  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@164dea80
+24-04-16 19:45:07.419 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Start completed.
+24-04-16 19:45:09.111 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+24-04-16 19:45:09.670 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+24-04-16 19:45:10.507 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+24-04-16 19:45:11.145 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8080"]
+24-04-16 19:45:11.188 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port 8080 (http) with context path ''
+24-04-16 19:45:11.212 [main] INFO  com.event.EventProjectApplication -
+				Started EventProjectApplication in 7.965 seconds (process running for 9.403)

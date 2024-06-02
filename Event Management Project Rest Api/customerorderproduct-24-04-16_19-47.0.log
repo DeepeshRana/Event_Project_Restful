@@ -1,0 +1,8 @@
+24-04-16 19:47:24.247 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-04-16 19:47:24.257 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcherServlet'
+24-04-16 19:47:24.265 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet -
+				Completed initialization in 5 ms
+24-04-16 19:47:24.733 [http-nio-8080-exec-2] INFO  c.event.controller.EventController -
+				Start postMapping !

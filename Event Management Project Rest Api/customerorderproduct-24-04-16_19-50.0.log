@@ -1,0 +1,4 @@
+24-04-16 19:50:12.125 [http-nio-8080-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
+				Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+24-04-16 19:50:56.616 [http-nio-8080-exec-8] INFO  c.event.controller.EventController -
+				Start postMapping !
